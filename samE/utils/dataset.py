@@ -17,7 +17,8 @@ from peract_colab.rlbench.utils import get_stored_demo
 from yarr.utils.observation_type import ObservationElement
 from yarr.replay_buffer.replay_buffer import ReplayElement, ReplayBuffer
 from yarr.replay_buffer.uniform_replay_buffer import UniformReplayBuffer
-from yarr.replay_buffer.uniform_replay_buffer_sequence import UniformReplayBuffer_sequence
+# from yarr.replay_buffer.uniform_replay_buffer_sequence import UniformReplayBuffer_sequence
+from samE.utils.uniform_replay_buffer_sequence import UniformReplayBuffer_sequence
 from rlbench.backend.observation import Observation
 from rlbench.demo import Demo
 

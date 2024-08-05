@@ -3,7 +3,7 @@ tasks: all
 bs: 10
 ah: 5
 num_workers: 3
-epochs: 15
+epochs: 1
 sample_distribution_mode: task_uniform
 peract:
   lr: 1e-4
